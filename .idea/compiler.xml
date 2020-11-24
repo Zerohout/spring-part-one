@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="lesson-3-spring-mvc" />
-        <module name="lesson-1-basics" />
-        <module name="lesson-2-servlet-app" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lesson-1-basics" target="11" />
+      <module name="lesson-2-servlet-app" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
